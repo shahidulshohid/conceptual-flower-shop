@@ -25,7 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .banner-text-container h1 {
   margin-bottom: 20px;
@@ -52,6 +52,7 @@ body {
   height: 650px;
   margin-left: 120px;
 }
+/* feature styles here */
 .featured-image-container {
   width: 90%;
   height: 650px;
@@ -65,6 +66,7 @@ body {
   align-items: center;
   width: 50%;
   margin: 0 auto;
+  text-align: center;
 }
 .featured-images {
   display: flex;
@@ -74,10 +76,8 @@ body {
 .first-image,
 .second-image,
 .third-image {
-  /* width: 450px; */
   width: 33%;
   height: 530;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,11 +102,81 @@ body {
 .test {
   border-radius: 50%;
 }
+.img-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+/* click and collect section styles here */
+.click-and-collect {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 70px 150px;
+}
+.click-and-collect p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+/* sale up 25% section styles here */
+.sale-up-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 90px;
+}
+.sale-up-items {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+.sale-up-item {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.sale-up-item h3 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.sale-up-item span {
+  color: rgb(229, 84, 115);
+}
+.sale-up-item p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.sale-up-item button {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  padding: 10px 20px;
+  border: none;
+}
+/* instagram-section styles here */
 .instagram-section-container {
   width: 90%;
   height: 1050px;
   margin: 0 auto;
-  margin-top: 140px;
+  margin-top: 90px;
 }
 .instagrom-text-content {
   height: 132px;
@@ -143,6 +213,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .deals-content p {
   margin-bottom: 30px;
@@ -160,4 +231,34 @@ body {
   border: none;
   border-radius: 2px;
   background-color: rgb(229, 84, 115);
+}
+/* footer section styles here */
+.footer-section {
+  background: rgb(17, 16, 16);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 0;
+}
+.footer-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: rgb(229, 84, 115);
+}
+.footer-content span {
+  color: rgb(255, 255, 255);
+}
+.footer-content p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.footer-content small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
